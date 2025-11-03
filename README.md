@@ -1,6 +1,6 @@
 # rock-_paper_scissor
 import random
-user_choice=int(input("enter choice 0 for rocks,1 for paper,3 for scissor"))
+user_choice=int(input("enter choice 0 for rocks,1 for paper,2 for scissor"))
 if user_choice>=3 or computer_choice<=0:
   print("invalid choice")
 else:
